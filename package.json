@@ -1,0 +1,45 @@
+{
+  "name": "bulma-dracula",
+  "version": "1.0.0",
+  "description": "Bulma css with Dracula dark color themes",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack-dev-server --hot --color --open",
+    "build": "webpack --mode production",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mazipan/bulma-dracula.git"
+  },
+  "keywords": [
+    "bulma",
+    "bulma-theme",
+    "bulma-css",
+    "bulma-dark",
+    "bulma-dracula"
+  ],
+  "author": "Irfan Maulana <github.com/mazipan>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mazipan/bulma-dracula/issues"
+  },
+  "homepage": "https://github.com/mazipan/bulma-dracula#readme",
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/plugin-syntax-dynamic-import": "^7.2.0",
+    "@babel/preset-env": "^7.4.2",
+    "babel-loader": "^8.0.5",
+    "babel-core": "7.0.0-bridge.0",
+    "bulma": "^0.7.4",
+    "css-loader": "^2.1.1",
+    "extract-text-webpack-plugin": "^4.0.0-beta.0",
+    "html-webpack-plugin": "^3.2.0",
+    "node-sass": "^4.11.0",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.3.0",
+    "webpack-dev-server": "^3.2.1"
+  }
+}
