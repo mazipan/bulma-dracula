@@ -2,6 +2,7 @@ var path = require('path')
 var webpack = require('webpack')
 const ExtractTextPlugin = require('extract-text-webpack-plugin')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
+const CopyPlugin = require('copy-webpack-plugin')
 
 const publicPath = 'bulma-dracula';
 
@@ -65,7 +66,10 @@ module.exports = {
   },
   plugins: [
     new ExtractTextPlugin('bulma-dracula.css'),
-    extractHTML
+    extractHTML,
+    new CopyPlugin([
+      { from: 'static', to: '' },
+    ]),
   ]
 }
 

@@ -1,37 +1,34 @@
 @charset "utf-8";
 
-// Import a Google Font
-@import url('https://fonts.googleapis.com/css?family=Nunito:400,700');
+// Dracula Pallete
+$dracula-bg: #282a36;
+$dracula-fg: #f8f8f2;
+$dracula-selected: #44475a;
+$dracula-comment: #6272a4;
+$dracula-cyan: #8be9fd;
+$dracula-green: #50fa7b;
+$dracula-orange: #ffb86c;
+$dracula-pink: #ff79c6;
+$dracula-purple: #bd93f9;
+$dracula-red: #ff5555;
+$dracula-yellow: #f1fa8c;
 
-// Set your brand colors
-$purple: #8A4D76;
-$pink: #FA7C91;
-$brown: #757763;
-$beige-light: #D0D1CD;
-$beige-lighter: #EFF0EB;
 
 // Update Bulma's global variables
-$family-sans-serif: "Nunito", sans-serif;
-$grey-dark: $brown;
-$grey-light: $beige-light;
-$primary: $purple;
-$link: $pink;
-$widescreen-enabled: false;
-$fullhd-enabled: false;
+$primary: $dracula-purple;
+$link: $dracula-pink;
+$info: $dracula-cyan;
+$success: $dracula-green;
+$warning: $dracula-yellow;
+$danger: $dracula-red;
+$dark: $dracula-selected;
+$grey: $dracula-fg;
+
+$text: $dracula-fg;
+$background: $dracula-bg;
 
 // Update some of Bulma's component variables
-$body-background-color: $beige-lighter;
-$control-border-width: 2px;
-$input-border-color: transparent;
-$input-shadow: none;
+$body-background-color: $dracula-bg;
+$footer-background-color: $dracula-bg;
 
-// Import only what you need from Bulma
-@import "../node_modules/bulma/sass/utilities/_all.sass";
-@import "../node_modules/bulma/sass/base/_all.sass";
-@import "../node_modules/bulma/sass/elements/button.sass";
-@import "../node_modules/bulma/sass/elements/container.sass";
-@import "../node_modules/bulma/sass/elements/form.sass";
-@import "../node_modules/bulma/sass/elements/title.sass";
-@import "../node_modules/bulma/sass/components/navbar.sass";
-@import "../node_modules/bulma/sass/layout/hero.sass";
-@import "../node_modules/bulma/sass/layout/section.sass";
+@import "~bulma/bulma";
