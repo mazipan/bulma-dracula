@@ -1,6 +1,12 @@
-# bulma-dracula
-Bulma css with Dracula dark color themes
+# 😈 bulma-dracula
 
+![Bulma](https://img.shields.io/badge/bulma-dracula-purple.svg) [![Travis](https://img.shields.io/travis/mazipan/bulma-dracula.svg)](https://travis-ci.org/mazipan/bulma-dracula)
+
+> Bulma css with Dracula dark color themes
+
+## Homepage
+
+[https://mazipan.github.io/bulma-dracula/](https://mazipan.github.io/bulma-dracula/)
 
 ## Color Palette
 
