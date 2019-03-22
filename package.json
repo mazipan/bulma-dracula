@@ -2,10 +2,18 @@
   "name": "bulma-dracula",
   "version": "1.0.0",
   "description": "Bulma css with Dracula dark color themes",
-  "main": "index.js",
+  "main": "src/bulma-dracula.scss",
+  "unpkg": "dist/bulma-dracula.css",
+  "style": "dist/bulma-dracula.css",
+  "files": [
+    "dist/bulma-dracula.css",
+    "src/bulma-dracula.scss",
+    "LICENSE",
+    "README.md"
+  ],
   "scripts": {
     "dev": "webpack-dev-server --hot --color --open",
-    "build": "webpack --mode production",
+    "build": "rimraf dist && webpack --mode production",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -25,18 +33,21 @@
     "url": "https://github.com/mazipan/bulma-dracula/issues"
   },
   "homepage": "https://github.com/mazipan/bulma-dracula#readme",
+  "dependencies": {
+    "bulma": "^0.7.4"
+  },
   "devDependencies": {
     "@babel/core": "^7.2.2",
     "@babel/plugin-syntax-dynamic-import": "^7.2.0",
     "@babel/preset-env": "^7.4.2",
     "babel-core": "7.0.0-bridge.0",
     "babel-loader": "^8.0.5",
-    "bulma": "^0.7.4",
     "copy-webpack-plugin": "^5.0.1",
     "css-loader": "^2.1.1",
     "extract-text-webpack-plugin": "^4.0.0-beta.0",
     "html-webpack-plugin": "^3.2.0",
     "node-sass": "^4.11.0",
+    "rimraf": "^2.6.3",
     "sass-loader": "^7.1.0",
     "style-loader": "^0.23.1",
     "webpack": "^4.29.6",

@@ -8,7 +8,27 @@
 
 [https://mazipan.github.io/bulma-dracula/](https://mazipan.github.io/bulma-dracula/)
 
-## Color Palette
+## Screenshoot
+
+![Screenshoot](screenshoot.png)
+
+## Usage
+
+Install dependency:
+
+```bash
+$ yarn add bulma-dracula
+# OR
+$ npm i bulma-dracula
+```
+
+Import in your `.scss` files:
+
+```scss
+@import "~bulma-dracula/src/bulma-dracula.scss";
+```
+
+## Dracula Color Palette
 
 Palette      | Hex       | RGB           | HSL             | ![Color Picker Boxes](https://draculatheme.com/assets/img/color-boxes/eyedropper.png)
 ---          | ---       | ---           | ---             | ---
@@ -24,3 +44,7 @@ Pink         | `#ff79c6` | `255 121 198` | `326° 100% 74%` | ![Pink Color](http
 Purple       | `#bd93f9` | `189 147 249` | `265° 89% 78%`  | ![Purple Color](https://draculatheme.com/assets/img/color-boxes/purple.png)
 Red          | `#ff5555` | `255 85 85`   | `0° 100% 67%`   | ![Red Color](https://draculatheme.com/assets/img/color-boxes/red.png)
 Yellow       | `#f1fa8c` | `241 250 140` | `65° 92% 76%`   | ![Yellow Color](https://draculatheme.com/assets/img/color-boxes/yellow.png)
+
+---
+
+Copyright © 2019, Released under MIT license. By Irfan Maulana from 🇮🇩
