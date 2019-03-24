@@ -28,6 +28,12 @@ Import in your `.scss` files:
 @import "~bulma-dracula/src/bulma-dracula.scss";
 ```
 
+CDN on `unpkg`:
+
+[https://unpkg.com/bulma-dracula@1.0.0/dist/bulma-dracula.css](https://unpkg.com/bulma-dracula@1.0.0/dist/bulma-dracula.css)
+
+Change `1.0.0` with latest version or you can just hit [https://unpkg.com/bulma-dracula](https://unpkg.com/bulma-dracula]
+
 ## Dracula Color Palette
 
 Palette      | Hex       | RGB           | HSL             | ![Color Picker Boxes](https://draculatheme.com/assets/img/color-boxes/eyedropper.png)
