@@ -17,7 +17,15 @@ $dracula-yellow: #f1fa8c;
 // Update Bulma's global variables
 // read more: https://bulma.io/documentation/customize/variables/
 $primary: $dracula-purple;
+
 $link: $dracula-pink;
+$link-hover: lighten($dracula-pink, 5%);
+$link-hover-border: lighten($dracula-pink, 5%);
+$link-focus: darken($dracula-pink, 5%);
+$link-focus-border: darken($dracula-pink, 5%);
+$link-active: lighten($dracula-pink, 5%);
+$link-active-border: lighten($dracula-pink, 5%);
+
 $info: $dracula-cyan;
 $success: $dracula-green;
 $warning: $dracula-yellow;
@@ -41,5 +49,7 @@ $subtitle-strong-color: darken($dracula-fg, 5%);
 
 $body-background-color: $dracula-bg;
 $footer-background-color: $dracula-bg;
+
+$code-background: $dracula-selected;
 
 @import "~bulma/bulma";

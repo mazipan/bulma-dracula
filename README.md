@@ -1,6 +1,6 @@
 # 😈 bulma-dracula
 
-![Bulma](https://img.shields.io/badge/bulma-dracula-purple.svg) [![Travis](https://img.shields.io/travis/mazipan/bulma-dracula.svg)](https://travis-ci.org/mazipan/bulma-dracula)
+![Bulma](https://img.shields.io/badge/bulma-dracula-purple.svg) [![Travis](https://img.shields.io/travis/mazipan/bulma-dracula.svg)](https://travis-ci.org/mazipan/bulma-dracula) [![Bulma Dracula NPM](https://img.shields.io/npm/v/bulma-dracula.svg)](https://www.npmjs.com/package/bulma-dracula)
 
 > Bulma css with Dracula dark color themes
 
@@ -35,6 +35,8 @@ CDN on `unpkg`:
 Change `1.0.0` with latest version or you can just hit [https://unpkg.com/bulma-dracula](https://unpkg.com/bulma-dracula)
 
 ## Dracula Color Palette
+
+This repo will override these variables https://bulma.io/documentation/customize/variables/ with below palletes:
 
 Palette      | Hex       | RGB           | HSL             | ![Color Picker Boxes](https://draculatheme.com/assets/img/color-boxes/eyedropper.png)
 ---          | ---       | ---           | ---             | ---
