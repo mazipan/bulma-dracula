@@ -15,6 +15,7 @@ $dracula-yellow: #f1fa8c;
 
 
 // Update Bulma's global variables
+// read more: https://bulma.io/documentation/customize/variables/
 $primary: $dracula-purple;
 $link: $dracula-pink;
 $info: $dracula-cyan;
@@ -25,9 +26,19 @@ $dark: $dracula-selected;
 $grey: $dracula-fg;
 
 $text: $dracula-fg;
+$text-light: lighten($dracula-fg, 5%);
+$text-strong: darken($dracula-fg, 5%);
+
 $background: $dracula-bg;
 
+$green-invert: $dracula-bg;
+$success-invert: $dracula-bg;
+
 // Update some of Bulma's component variables
+$title-color: $dracula-fg;
+$subtitle-color: $dracula-fg;
+$subtitle-strong-color: darken($dracula-fg, 5%);
+
 $body-background-color: $dracula-bg;
 $footer-background-color: $dracula-bg;
 

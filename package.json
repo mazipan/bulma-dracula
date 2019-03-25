@@ -1,6 +1,6 @@
 {
   "name": "bulma-dracula",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Bulma css with Dracula dark color themes",
   "main": "src/bulma-dracula.scss",
   "unpkg": "dist/bulma-dracula.css",
