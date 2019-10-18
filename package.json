@@ -34,7 +34,7 @@
   },
   "homepage": "https://github.com/mazipan/bulma-dracula#readme",
   "dependencies": {
-    "bulma": "^0.7.4"
+    "bulma": "^0.8.0"
   },
   "devDependencies": {
     "@babel/core": "7.6.4",
