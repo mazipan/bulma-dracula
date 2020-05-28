@@ -53,6 +53,12 @@ Purple       | `#bd93f9` | `189 147 249` | `265° 89% 78%`  |
 Red          | `#ff5555` | `255 85 85`   | `0° 100% 67%`   | 
 Yellow       | `#f1fa8c` | `241 250 140` | `65° 92% 76%`   | 
 
+
+## Support me
+
+- Via [trakteer](https://trakteer.id/mazipan)
+- Direct support, [send me an email](mailto:mazipanneh@gmail.com)
+
 ---
 
 Copyright © 2019, Released under MIT license. By Irfan Maulana from 🇮🇩
