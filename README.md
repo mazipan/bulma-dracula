@@ -1,6 +1,6 @@
 # 😈 bulma-dracula
 
-![Bulma](https://img.shields.io/badge/bulma-dracula-purple.svg) [![Travis](https://img.shields.io/travis/mazipan/bulma-dracula.svg)](https://travis-ci.org/mazipan/bulma-dracula) [![Bulma Dracula NPM](https://img.shields.io/npm/v/bulma-dracula.svg)](https://www.npmjs.com/package/bulma-dracula) ![Dependencies](https://img.shields.io/david/mazipan/bulma-dracula.svg)
+![Bulma](https://img.shields.io/badge/bulma-dracula-purple.svg) [![Travis](https://img.shields.io/travis/mazipan/bulma-dracula.svg)](https://travis-ci.org/mazipan/bulma-dracula) [![Bulma Dracula NPM](https://img.shields.io/npm/v/bulma-dracula.svg)](https://www.npmjs.com/package/bulma-dracula) ![Download](https://img.shields.io/npm/dt/bulma-dracula.svg) ![Dependencies](https://img.shields.io/david/mazipan/bulma-dracula.svg)
 
 > Bulma css with Dracula dark color themes
 
