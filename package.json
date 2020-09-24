@@ -1,6 +1,6 @@
 {
   "name": "bulma-dracula",
-  "version": "1.0.4",
+  "version": "1.1.0",
   "description": "Bulma css with Dracula dark color themes",
   "main": "src/bulma-dracula.scss",
   "unpkg": "dist/bulma-dracula.css",
@@ -8,6 +8,7 @@
   "files": [
     "dist/bulma-dracula.css",
     "src/bulma-dracula.scss",
+    "src/bulma-dracula-vars.scss",
     "LICENSE",
     "README.md"
   ],
@@ -34,24 +35,25 @@
   },
   "homepage": "https://github.com/mazipan/bulma-dracula#readme",
   "dependencies": {
-    "bulma": "^0.8.0"
+    "bulma": "^0.9.0"
   },
   "devDependencies": {
-    "@babel/core": "7.8.4",
+    "@babel/core": "7.11.6",
     "@babel/plugin-syntax-dynamic-import": "7.8.3",
-    "@babel/preset-env": "7.8.4",
+    "@babel/preset-env": "7.11.5",
     "babel-core": "7.0.0-bridge.0",
-    "babel-loader": "8.0.6",
-    "copy-webpack-plugin": "5.1.1",
-    "css-loader": "3.4.2",
-    "extract-text-webpack-plugin": "4.0.0-beta.0",
-    "html-webpack-plugin": "3.2.0",
-    "node-sass": "4.13.1",
+    "babel-loader": "8.1.0",
+    "copy-webpack-plugin": "6.1.1",
+    "css-loader": "4.3.0",
+    "html-webpack-plugin": "4.5.0",
+    "mini-css-extract-plugin": "0.11.2",
+    "node-sass": "4.14.1",
+    "postcss-loader": "^4.0.2",
     "rimraf": "3.0.2",
-    "sass-loader": "8.0.2",
-    "style-loader": "1.1.3",
-    "webpack": "4.41.6",
-    "webpack-cli": "3.3.11",
-    "webpack-dev-server": "3.10.3"
+    "sass-loader": "10.0.2",
+    "style-loader": "1.2.1",
+    "webpack": "4.44.2",
+    "webpack-cli": "3.3.12",
+    "webpack-dev-server": "3.11.0"
   }
 }
