@@ -53,3 +53,15 @@ $footer-background-color: $dracula-bg;
 $code-background: $dracula-selected;
 $label-color: $dracula-fg;
 $card-color: $dracula-bg;
+
+// button
+$button-color: $dracula-bg;
+
+// message
+$message-body-color: $dracula-bg;
+
+// form
+$input-placeholder-color: lighten($dracula-selected, 20%);
+$input-color: $dracula-selected;
+$input-icon-color: lighten($dracula-selected, 20%);
+$input-icon-active-color: $dracula-selected;
