@@ -14,6 +14,7 @@ $dracula-red: #ff5555;
 $dracula-yellow: #f1fa8c;
 
 
+$deep-black: #0a0a0a;
 // Update Bulma's global variables
 // read more: https://bulma.io/documentation/customize/variables/
 $primary: $dracula-purple;
@@ -56,6 +57,7 @@ $card-color: $dracula-bg;
 
 // button
 $button-color: $dracula-bg;
+$button-static-color: $dracula-bg;
 
 // message
 $message-body-color: $dracula-bg;
@@ -65,3 +67,26 @@ $input-placeholder-color: lighten($dracula-selected, 20%);
 $input-color: $dracula-selected;
 $input-icon-color: lighten($dracula-selected, 20%);
 $input-icon-active-color: $dracula-selected;
+
+// form -- select
+$input-hover-color: $dracula-pink;
+
+// form -- radio
+// $input-hover-color: $dracula-fg;
+
+// table
+$table-background-color: $dracula-bg;
+
+$table-head-background-color: $deep-black;
+$table-foot-background-color:$deep-black;
+
+$table-row-hover-background-color: lighten($dracula-selected, 10%);
+$table-row-active-background-color: $dracula-selected;
+$table-striped-row-even-background-color: $dracula-selected;
+$table-striped-row-even-hover-background-color: lighten($dracula-selected, 10%);
+
+// box
+$box-background-color: $deep-black;
+
+// media
+$media-border-color: $dracula-fg;
