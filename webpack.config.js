@@ -49,8 +49,8 @@ module.exports = {
             },
           },
           'css-loader',
-					'postcss-loader',
-					{
+          'postcss-loader',
+          {
             loader: 'sass-loader',
             options: {
               sourceMap: true,
@@ -96,11 +96,9 @@ module.exports = {
       filename: 'bulma-dracula.css',
       ignoreOrder: false,
     }),
-		extractHTML,
-		new CopyPlugin({
-      patterns: [
-        { from: 'static', to: '' },
-      ],
+    extractHTML,
+    new CopyPlugin({
+      patterns: [{ from: 'static', to: '' }],
     }),
   ],
 };
